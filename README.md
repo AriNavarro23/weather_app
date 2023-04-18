@@ -2,7 +2,9 @@
 A simple weather app that allows you to get current weather information, based on the city you enter. 
 
 
-##Preview 
+## Preview 
+
+[Live Demo](https://arinavarro23.github.io/weather_app/).
 
 
 ## Getting Started
