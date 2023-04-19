@@ -76,6 +76,10 @@ const SearchWeather = () => {
     // Submit form
     const handleSubmit = (event) => {
         event.preventDefault();
+        /*if(!input.trim()){
+            alert("Please enter a city name");
+            return;
+        }*/
         setSearch(input);
     }
 

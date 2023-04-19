@@ -82,6 +82,7 @@ h1{
         font-size: 0.9rem !important;
         margin-bottom: 0px !important;
     }
+
 }
 
 @media screen and (max-width: 1024px){
@@ -98,10 +99,15 @@ h1{
 
     
     h1 {
-        font-size: 0.9rem !important;
+        font-size: 1rem !important;
         margin-bottom: 0px !important;
+        padding: 10px;
     }
 
+    .col-md-4{
+        width: 32% !important;
+        height: 100%;
+    }
 
 }
 
