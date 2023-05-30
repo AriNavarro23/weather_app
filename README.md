@@ -6,6 +6,8 @@ A simple weather app that allows you to get current weather information, based o
 
 [Live Demo](https://arinavarro23.github.io/weather_app/).
 
+![Weather app preview!](public/assets/images/weather_app.png)
+
 
 ## Getting Started
 
