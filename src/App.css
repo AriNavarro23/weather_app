@@ -6,11 +6,10 @@
 
 html{
 background-color: black;
-padding: 3rem;
 }
 
 .App{
-    height: 100%;
+    
 }
 
 .container-father{
@@ -20,14 +19,16 @@ padding: 3rem;
 
 .container-con-box{
     height: 100%;
+
 }
 
 .container-box{
-    width: 100%;
+    width: auto;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 3rem;
 }
 
 img{
@@ -44,6 +45,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 @media screen and (max-width: 480px){
@@ -82,7 +84,7 @@ h1{
         font-size: 0.9rem !important;
         margin-bottom: 0px !important;
     }
-
+    
 }
 
 @media screen and (max-width: 1024px){
