@@ -64,13 +64,17 @@ h1{
 
 @media screen and (max-width: 480px){
 
+    .col-md-4{
+        width: 100% !important;
+    }
+
     .bg-dark{
         height: 31vh;
         width: auto;
     }
 
     h2, p{
-        font-size: 15px !important  ;
+        font-size: 15px !important ;
         font-weight: bold !important;
         padding-top: 1rem;
     }
@@ -83,30 +87,29 @@ h1{
 }
 
 @media screen and (max-width: 768px){
+    
+    .col-md-4{
+        width: 100%;
+        height: auto;
+    }
+    
     img{
         height: 40vh;
         width: auto;
     }
-    
-
     .bg-dark{
         height: 60%;
         width: 80%;
     }
-
     h2{
         font-size: 20px !important;
     }
-
     .lead{
         font-size: 1rem !important;
     }
-    
     .input-group{
         margin-bottom: 1rem;
-  
     }
-
     h1 {
         font-size: 0.9rem !important;
         margin-bottom: 0px !important;
@@ -114,11 +117,9 @@ h1{
     h2{
         font-size: 20px;
     }
-
-    .fa-cloud{
+    i {
         font-size: 2rem;
     }
-
 }
 
 @media screen and (max-width: 1024px){
@@ -132,7 +133,6 @@ h1{
         height: 80%;
         width: auto;
     }
-
     
     h1 {
         font-size: 1rem !important;
@@ -141,7 +141,7 @@ h1{
     }
 
     .col-md-4{
-        width: 32% !important;
+        width: 32%;
         height: 100%;
     }
 
