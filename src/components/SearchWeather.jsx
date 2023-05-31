@@ -7,7 +7,6 @@ const SearchWeather = () => {
     const [data, setData] = useState([]);
     const [input, setInput] = useState("");
 
-
     // component mounted 
     let componentMounted = true
     
@@ -15,6 +14,7 @@ const SearchWeather = () => {
     useEffect(() => {
         const fetchWeather = async () => {
             const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=7e16019b93627a8353b069a9121aac17`);
+
             if (componentMounted) {
                 setData(await response.json());
                 console.log(data)
@@ -76,10 +76,7 @@ const SearchWeather = () => {
     // Submit form
     const handleSubmit = (event) => {
         event.preventDefault();
-        /*if(!input.trim()){
-            alert("Please enter a city name");
-            return;
-        }*/
+
         setSearch(input);
     }
 
@@ -88,11 +85,15 @@ const SearchWeather = () => {
             <div className="container-con-box">
                 <div className="container-box">
                     <div className="col-md-4">
-                        <div className="card text-white text-center border-0">
-                            <img src={`https://source.unsplash.com/600x900/?${data.weather[0].main}`} class="card-img" alt="..." />
+                        <div className="card border-0">
+                            <img 
+                            src={`https://source.unsplash.com/600x900/?${data.weather[0].main}`} 
+                            class="card-img" 
+                            alt="..." 
+                            />
                             <div className="card-img-overlay">
                                 <form onSubmit={handleSubmit}>
-                                    <div className="input-group mb-4 w-75 mx-auto">
+                                    <div className="input-group mx-auto">
                                         <input
                                             type="text"
                                             class="form-control"

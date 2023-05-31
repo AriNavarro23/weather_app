@@ -8,9 +8,6 @@ html{
 background-color: black;
 }
 
-.App{
-    
-}
 
 .container-father{
     background-color: black;
@@ -29,6 +26,23 @@ background-color: black;
     justify-content: center;
     align-items: center;
     padding: 3rem;
+}
+
+.bg-dark{
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.card{
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 0;
+}
+
+.input-group{
+    margin-bottom: 2rem;
+    width: 75%;
 }
 
 img{
@@ -79,12 +93,32 @@ h1{
         height: 60%;
         width: 80%;
     }
+
+    h2{
+        font-size: 20px !important;
+    }
+
+    .lead{
+        font-size: 1rem !important;
+    }
     
+    .input-group{
+        margin-bottom: 1rem;
+  
+    }
+
     h1 {
         font-size: 0.9rem !important;
         margin-bottom: 0px !important;
     }
-    
+    h2{
+        font-size: 20px;
+    }
+
+    .fa-cloud{
+        font-size: 2rem;
+    }
+
 }
 
 @media screen and (max-width: 1024px){
@@ -112,4 +146,3 @@ h1{
     }
 
 }
-
